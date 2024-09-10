@@ -3,6 +3,11 @@
 This project is a Python application that monitors the Ethereum blockchain for deposits made to a specific address, stores transaction details in MongoDB, and sends real-time alerts to a Telegram channel. It leverages Web3 for Ethereum interaction, MongoDB for data storage, and the Telegram API for notifications.
 
 
+## Telegram Group Link
+
+https://t.me/+b9hb5bYONbYyZjNl
+
+
 ## Technologies Used
 
 - **Python**: Core programming language used to implement the logic.

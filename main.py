@@ -18,10 +18,13 @@ TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 ALCHEMY_API_URL = os.getenv('ALCHEMY_API_URL')
 DEPOSIT_ADDRESS = os.getenv('DEPOSIT_ADDRESS')
 
-# Connect to MongoDB
+# Connect to MongoDB Atlas
 client = MongoClient(MONGO_URI)
+print("1")
 db = client[DATABASE_NAME]
+print("2")
 collection = db[COLLECTION_NAME]
+print("3")
 
 # Function to store deposit in MongoDB
 def store_deposit(transaction, block):
